@@ -1,11 +1,11 @@
 Config = {}
 Config.Debug = false
-Config.Framework = "qb-core"  -- Specify your framework, e.g., ESX or qb-core
-Config.locales = "en"  -- Specify your language (en/pt/de/fr/nl)
-Config.Inventory = "Old-QbInventory"  -- Choose your inventory system: New-QbInventory, Old-QbInventory, OX-Inventory, qs-inventory or custom
+Config.Framework = "ESX"  -- Specify your framework, e.g., ESX or qb-core
+Config.locales = "de"  -- Specify your language (en/pt/de/fr/nl)
+Config.Inventory = "OX-Inventory"  -- Choose your inventory system: New-QbInventory, Old-QbInventory, OX-Inventory, qs-inventory or custom
 Config.MoneyType = "bank"  -- Specify whether the seller receives money as bank or cash (for ESX, specify 'money' if required)
-Config.TargetSystem = "qb-target" --ox-target or qb-target
-Config.Progressbar = "qb-progressbar"  --qb-progressbar/ ESX-Progressbar/ox-progressbar/ ox-progressCircle/ custom-progressbar
+Config.TargetSystem = "ox-target" --ox-target or qb-target
+Config.Progressbar = "ox-progressbar"  --qb-progressbar/ ESX-Progressbar/ox-progressbar/ ox-progressCircle/ custom-progressbar
 Config.UTCTime = 0 --Put here you UTC time + you can get it from here for your region https://en.wikipedia.org/wiki/List_of_UTC_offsets
 Config.DeleteOldEntries = true --Put this to ture if you want to delete all unused entries in the Database on an script restart or server restart
 
